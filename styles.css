@@ -1,11 +1,43 @@
+h1 {
+	font-family: "Arial";
+}
+
 
 form {
+	font-family: "Arial";
 	padding: 15px;
-	border: blue;
+	border-style: dotted;
+	border-width: 5px;
 	margin: 70px;
 }
 
 footer {
 	margin: auto;
 	width: 20%;
+}
+
+main {
+	background-image: url("bananaexplode.png");
+}
+
+
+a:visited {
+	color: green;	
+}
+
+main.prose {
+	font-family: "Arial";
+}
+
+p.prose {
+	font-family: "Arial";
+}
+
+#list li{
+	color: blue;
+}
+
+footer.copyright{
+	font-size: .4em;
+	color: red;
 }
